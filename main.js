@@ -50,7 +50,7 @@ Ejemplo: $1.000 = $1.030
 *Si no envían los $30 se le descuenta de su carga neta*
 Ejemplo: $1.000 = $970
 
-📲 *PARA JUGAR INGRESE AQUÍ:* https://azarlatino1.com/`;
+📲 *PARA JUGAR INGRESE A:* https://azarlatino1.com/`;
       const elementoTemporal = document.createElement("textarea");
       elementoTemporal.value = texto;
       document.body.appendChild(elementoTemporal);
