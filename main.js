@@ -6,7 +6,7 @@ let info = document.getElementById("info");
 let retirar = document.getElementById("retirar");
 let exitos = document.getElementById("exitos");
 let premioEnviado = document.getElementById("premioEnviado");
-let contraseña = document.getElementById("contraseña");
+let contraseña = document.getElementById("paginaWeb");
 let noIngreso = document.getElementById("noIngreso");
 let soporte = document.getElementById("soporte");
 let demorasPago = document.getElementById("demorasPago");
@@ -216,9 +216,9 @@ Accedé a nuestra web www.suertecaba.com, dejanos un comentario y valorá nuestr
   document.body.removeChild(elementoTemporal);
 });
 
-contraseña.addEventListener("click", () => {
-  const texto = `*CONTRASEÑA RESTABLECIDA*🔑
-Por favor, atualice la pagina para evitar que se bloquee el usuario, luego copie y pegue los datos así se evitan errores de tipeo 🙂`;
+paginaWeb.addEventListener("click", () => {
+  const texto = `Accedé a nuestra web www.suertecaba.com, guardala en favoritos y *no pierdas nunca nuestro contacto!*
+*También podes dejarnos un comentario y valorar nuestro servicio* 💻🌟`;
   const elementoTemporal = document.createElement("textarea");
   elementoTemporal.value = texto;
   document.body.appendChild(elementoTemporal);
@@ -303,9 +303,10 @@ ordenLlegada.addEventListener("click", () => {
   document.body.removeChild(elementoTemporal);
 });
 
-demorasCargas.addEventListener("click", () => {
-  const texto = `Estimado cliente 👋🏼 Le informamos que *hay demoras en las cargas* debido a que las transferencias estan ingresando con delay. 
-*Si envía dinero y no ingresa*, no se le cargarán las fichas, hasta que no se demuestre como depositado en nuestra cuenta. *Cuando se normalice la situación, le notificamos* 😀`;
+bonificacion.addEventListener("click", () => {
+  const texto = `‼️ *INFO SOBRE LAS BONIFICACIONES* ‼️
+
+Las bonificaciones que se te asignen son para aumentar tus posibilidades de ganar! En el caso que ganes, *se efectúa el retiro de todo (incluyendo la bonificación)* pero esta misma, no se incluye en el pago del premio.💰`;
   const elementoTemporal = document.createElement("textarea");
   elementoTemporal.value = texto;
   document.body.appendChild(elementoTemporal);
