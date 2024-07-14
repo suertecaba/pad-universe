@@ -30,19 +30,19 @@ form.addEventListener("submit", function (e) {
 
   if (inputNombre.length != 0 && inputCBU != 0 && inputAlias.length != 0) {
     cbuxl.addEventListener("click", () => {
-      const texto = `Hola! ⚠️ *NO ENVIAR DINERO SIN CONSULTAR CBU SEGUNDOS ANTES* ⚠️
+      const texto = `Hola! 🚨 *NO ENVÍE DINERO SIN CONSULTAR CBU SEGUNDOS ANTES DE TRANSFERIR* 🚨 De lo contrario, la carga se demorará.
 
- ⚜️ *MÍNIMO DE CARGA: $1.000*
-
-*DATOS DE LA CUENTA*
-Nombre Completo: *${inputNombre}*
+⬇️ *CBU VIGENTE* ⬇️
+Titular: *${inputNombre}*
 CBU: *${inputCBU}*
 Alias: *${inputAlias}*
 
-ENVIAR:
-🔺COMPROBANTE
-🔺USUARIO de la plataforma
-🔺NOMBRE COMPLETO del TITULAR de la cuenta bancaria
+⚜️ *MÍNIMO DE CARGA: $1.000*
+
+ENVÍE:
+🔺*COMPROBANTE*
+🔺*USUARIO* de la plataforma
+🔺*NOMBRE COMPLETO* del TITULAR de la cuenta bancaria
 
 ❗Para cargas *MENORES* a $3.000 se debe abonar un *RECARGO* de $30.❗
 Ejemplo: $1.000 = $1.030
@@ -50,7 +50,7 @@ Ejemplo: $1.000 = $1.030
 *Si no envían los $30 se le descuenta de su carga neta*
 Ejemplo: $1.000 = $970
 
-📲 *INGRESÁ AQUÍ PARA JUGAR:* https://universegame.best/`;
+📲 *PARA JUGAR INGRESE AQUÍ:* https://azarlatino1.com/`;
       const elementoTemporal = document.createElement("textarea");
       elementoTemporal.value = texto;
       document.body.appendChild(elementoTemporal);
@@ -87,13 +87,13 @@ registrar.addEventListener("click", function (e) {
   const texto = `🔸*USUARIO REGISTRADO*🔸
 
 *TU USUARIO:* ${user}
-*CONTRASEÑA:* abc123
+*CONTRASEÑA:* hola1234
 
-Para comenzar a jugar ingresá aquí: https://universegame.best/
+Para comenzar a jugar ingresá aquí: https://azarlatino1.com/
     
-Encontranos en instagram como *@suertecaba_arg*
+🌐 Visita nuestra página web www.suertecaba.com y mantenete al día con todas nuestras novedades. ¡Allí vas a encontrar *SIEMPRE* nuestra información de contacto! 📞✨ 
 
-*CONSULTAR CBU PARA CARGAR TUS FICHAS* 🎰`;
+⚠️ *RECUERDE CONSULTAR SIEMPRE NUESTRO CBU SEGUNDOS ANTES DE TRANSFERIR*`;
   const elementoTemporal = document.createElement("textarea");
   elementoTemporal.value = texto;
   document.body.appendChild(elementoTemporal);
@@ -108,15 +108,23 @@ Encontranos en instagram como *@suertecaba_arg*
 });
 
 bienvenida.addEventListener("click", () => {
-  const texto = `👋🏼 Hola buenas! 
-Bienvenido/a a SUERTE CABA 🍀
-Te pido tu *NOMBRE* y *APELLIDO* para poder generarte un usuario 💬
+  const texto = `👋🏼  Bienvenido/a a *SUERTE CABA* 🍀 Te pido tu *NOMBRE* y *APELLIDO* para poder generarte un usuario 💬 
+
+📱  *PLATAFORMA:* https://azarlatino1.com/ aquí encontrarás: 
+. Slots (maquinitas)
+. Ruletas en vivo
+. Apuestas deportivas (sólo se aceptan apuestas deportivas de primera línea)
+. Blackjack
+. Baccarat
+. Bingo
+🔞 *SÓLO APTO PARA MAYORES DE 18 AÑOS* 🔞
 
 🔺 *MÍNIMO DE CARGA: $1.000*
 🔺 *MÍNIMO DE RETIRO $2.000*
 🔺 *MÁXIMO DE RETIRO NO TENEMOS*
+🌐 Conocenos a través de nuestra web 👉🏼 www.suertecaba.com y *no pierdas nunca nuestro contacto!*
 
-En caso de ya tener un usuario *CON NOSOTROS* registrado en la plataforma por favor avisar 🙏🏻`;
+Si ya tiene un usuario *CON NOSOTROS* por favor avísenos 🙏🏻`;
   const elementoTemporal = document.createElement("textarea");
   elementoTemporal.value = texto;
   document.body.appendChild(elementoTemporal);
@@ -127,16 +135,28 @@ En caso de ya tener un usuario *CON NOSOTROS* registrado en la plataforma por fa
 });
 
 info.addEventListener("click", () => {
-  const texto = `⚜️ Somos @suertecaba_arg
-Tu casino ONLINE de confianza 🍀 En nuestra plataforma te vas a encontrar con los mismos juegos que en un casino físico sólo que podrás jugarlos desde la comodidad en donde estés 💯
+  const texto = `¡Hola! Somos *Suerte Caba* 🍀 
 
-*¿Cómo hacer para jugar?*
-Te creamos un usuario, nos solicitas *nuestro cbu para cargar el dinero* que quieras jugar, corroboramos que ingrese y listo 😄 Te acreditamos las fichas al instante.
+💻 *Plataforma:* www.azarlatino1.com 
 
-🔺 *MÍNIMO DE CARGA: $1.000*
-🔺 *MÍNIMO DE RETIRO $2.000*
+Contamos con: 
+. Slots (maquinitas)
+. Ruletas en vivo
+. Apuestas deportivas (solo se aceptan apuestas de primera línea)
+. Blackjack 
+. Baccarat
+. Bingo
 
-Si querés que te generemos un usuario responde este mensaje 📨`;
+*IMPORTANTE* 
+🔺 MÍNIMO DE CARGA: *$1.000*
+🔺 MÍNIMO DE RETIRO: *$2.000*
+🔺 MÁXIMO DE RETIRO: *NO TENEMOS*
+
+También puede acceder a nuestra web www.suertecaba.com y encontrar nuestros juegos recomendados, líneas de confianza y *tener contacto directo con nuestra empresa.*
+
+🔞 *DESTINADO A UN PÚBLICO ADULTO:* Al acceder a jugar con nosotros, usted confirma que *tiene 18 años o más.*
+
+Si quiere que le generemos un usuario indíquenos su *nombre* y *apellido!* 📥`;
   const elementoTemporal = document.createElement("textarea");
   elementoTemporal.value = texto;
   document.body.appendChild(elementoTemporal);
@@ -147,18 +167,18 @@ Si querés que te generemos un usuario responde este mensaje 📨`;
 });
 
 retirar.addEventListener("click", () => {
-  const texto = `🤑 Para retirar su dinero responda este mensaje indicandonos *EN ORDEN*:
+  const texto = `💸 Para retirar su dinero complete los siguientes datos *EN ORDEN*:
 
-1️⃣ Nombre de usuario
-2️⃣ Nombre y apellido que figura en tu cuenta de banco
-3️⃣ Monto que deseas retirar
+1️⃣ Nombre de usuario (del juego)
+2️⃣ Nombre y apellido que figura en su cuenta de banco
+3️⃣ Monto que desea retirar
 4️⃣ CBU / CVU
 5️⃣ ALIAS
 
-♦️ *MÍNIMO DE RETIRO: $2.000*
+♦️ *MÍNIMO DE RETIRO: $2.000* 
 
-Aguarde unos instantes y en breve será enviado al sector de pagos 💸
-*Su chat será archivado, por ende, no será leído de manera frecuente, SEA PACIENTE* 🙏🏻`;
+Una vez que complete los datos, será enviado al sector de pagos 💰
+*Se abona por orden de llegada, por favor sea paciente mientras procesamos su pago. Puede demorar un rato.* 🙏🏻`;
   const elementoTemporal = document.createElement("textarea");
   elementoTemporal.value = texto;
   document.body.appendChild(elementoTemporal);
@@ -169,14 +189,10 @@ Aguarde unos instantes y en breve será enviado al sector de pagos 💸
 });
 
 exitos.addEventListener("click", () => {
-  const texto = `*RETIRO EXITOSO*👏🏼‼️
+  const texto = `*RETIRO EXITOSO* 🏆✨
+Sus fichas *ya fueron retiradas* y su premio fue enviado al sector de pagos para ser abonado 🏦💲
 
-Sus fichas *ya fueron retiradas* y su premio fue enviado al sector de pagos 💸🤑
-
-Ya se encuentra en fila para ser abonado 💸🥳
-*NO responda este mensaje porque sino pasará a estar último/a en la fila de premios, AGUARDE SU TURNO.* 🙏🏻
-
-*NO SEA INSISTENTE* ⚠️`;
+En caso de que quiera retirar más fichas *POR FAVOR* avísenos antes de que le abonemos, sino, *le recomiendo NO responder hasta que le enviemos el comprobante del pago, de lo contrario perderá el lugar en la fila y su pago se demorará aún más.* 🙏🏻`;
   const elementoTemporal = document.createElement("textarea");
   elementoTemporal.value = texto;
   document.body.appendChild(elementoTemporal);
@@ -187,8 +203,10 @@ Ya se encuentra en fila para ser abonado 💸🥳
 });
 
 premioEnviado.addEventListener("click", () => {
-  const texto = `*TU PREMIO YA FUE ENVIADO* 🥳🥳💯🎉
-Felicitaciones! Disfrutalo mucho, *gracias por elegirnos* 🙌🏻`;
+  const texto = `*TU PREMIO YA FUE ENVIADO* 🥳💸💯
+Gracias por elegirnos 🙌🏻 Espero que lo disfrutes!
+
+Accedé a nuestra web www.suertecaba.com, dejanos un comentario y valorá nuestro servicio *para acceder a un 10% de bonificación en tu próxima carga!* 💬⭐`;
   const elementoTemporal = document.createElement("textarea");
   elementoTemporal.value = texto;
   document.body.appendChild(elementoTemporal);
@@ -211,10 +229,9 @@ Por favor, atualice la pagina para evitar que se bloquee el usuario, luego copie
 });
 
 noIngreso.addEventListener("click", () => {
-  const texto = `🤚🏼 Su transferencia aún no impactó, *tenga en cuenta que a veces las transferencias cuentan con demoras.* ⌛️
+  const texto = `🤚🏼 Aguarde! Su transferencia aún no impactó, *tenga en cuenta que a veces las transferencias cuentan con demora.* ⌛️
 
-Si el dinero no ingresa a nuestra cuenta bancaria, no tenemos autorizado cargarle las fichas 🎰 
-*Aguarde y en cuanto llegue su transferencia, sus fichas serán cargadas* 🔸`;
+*En cuanto llegue el dinero a nuestra cuenta, le cargaremos las fichas.* 🔸`;
   const elementoTemporal = document.createElement("textarea");
   elementoTemporal.value = texto;
   document.body.appendChild(elementoTemporal);
@@ -225,7 +242,7 @@ Si el dinero no ingresa a nuestra cuenta bancaria, no tenemos autorizado cargarl
 });
 
 soporte.addEventListener("click", () => {
-  const texto = `Buenas 👋🏼 por problemas e inconvenientes con la plataforma le solicitamos que *se comunique con el soporte de la página* ingresando al cuadro de diálogo que figura en la parte superior derecha de la misma, ya que nosotros *no podemos acceder a la configuración de las máquinas.* 🎰⚠️`;
+  const texto = `¡Hola! 👋🏼 Debido a problemas e inconvenientes con la plataforma, le recomendamos que se ponga en contacto con nuestro equipo de soporte accediendo a la sección *"Soporte"* en la página de inicio. El servicio está disponible las 24 horas. Inicie una conversación detallando el problema que experimentó y adjunte capturas de pantalla si es posible. 🛠️💬`;
   const elementoTemporal = document.createElement("textarea");
   elementoTemporal.value = texto;
   document.body.appendChild(elementoTemporal);
@@ -262,11 +279,8 @@ De lo contrario, no se podrá cargar las fichas!`;
 });
 
 cbuEquivocado.addEventListener("click", () => {
-  const texto = `Hola 👋🏼 Le informo que envió dinero a un cbu con el cual no estamos trabajando en este momento. 😐 Dejamos especificado previamente que siempre que vaya a realizar una transferencia, CONSULTE EL CBU, por más que le hayamos enviado uno hace unos minutos.
-
-Ahora deberá aguardar a que ingresemos a esa cuenta y verifiquemos que haya ingresado su dinero. PUEDE *DEMORAR UNAS HORAS.*❗️
-
-*SEA RESPONSABLE CON SU DINERO PORQUE SI ENVÍA POR ERROR A UNA CUENTA INACTIVA QUE NO PODEMOS INGRESAR, LO PIERDE*`;
+  const texto = `Hola 👋🏼 Envió dinero a un cbu con el cual no estamos trabajando en este momento, *recuerde consultar cbu segundos antes de transferir* (está especificado previamente). 📝
+Aguarde a que se conecte un supervisor y revise si su dinero ingresó para poder cargarle las fichas, *le aviso que puede demorar un rato.*`;
   const elementoTemporal = document.createElement("textarea");
   elementoTemporal.value = texto;
   document.body.appendChild(elementoTemporal);
