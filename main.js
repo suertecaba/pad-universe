@@ -89,6 +89,9 @@ registrar.addEventListener("click", function (e) {
 *TU USUARIO:* ${user}
 *CONTRASEÑA:* hola1234
 
+🔸 *MÍNIMO DE CARGA:* $1.000
+🔸 *MINIMO DE RETIRO:* $2.000
+
 Para comenzar a jugar ingresá aquí: https://azarlatino1.com/
     
 🌐 Visita nuestra página web www.suertecaba.com y mantenete al día con todas nuestras novedades. ¡Allí vas a encontrar *SIEMPRE* nuestra información de contacto! 📞✨ 
