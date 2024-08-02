@@ -212,7 +212,7 @@ premioEnviado.addEventListener("click", () => {
   const texto = `*TU PREMIO YA FUE ENVIADO* 🥳💸💯
 Gracias por elegirnos 🙌🏻 Espero que lo disfrutes!
 
-Accedé a nuestra web www.suertecaba.com, dejanos un comentario y valorá nuestro servicio *para acceder a un 10% de bonificación en tu próxima carga!* 💬⭐`;
+Accedé a nuestra web www.suertecaba.com, guardala en favoritos y nunca pierdas nuestro contacto! 📞⭐`;
   const elementoTemporal = document.createElement("textarea");
   elementoTemporal.value = texto;
   document.body.appendChild(elementoTemporal);
