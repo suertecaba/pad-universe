@@ -123,6 +123,7 @@ bienvenida.addEventListener("click", () => {
 . Blackjack
 . Baccarat
 . Bingo
+
 🔞 *SÓLO APTO PARA MAYORES DE 18 AÑOS* 🔞
 
 🔺 *MÍNIMO DE CARGA: $1.000*
