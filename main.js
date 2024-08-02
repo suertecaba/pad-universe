@@ -91,8 +91,11 @@ registrar.addEventListener("click", function (e) {
 
 🔸 *MÍNIMO DE CARGA:* $1.000
 🔸 *MINIMO DE RETIRO:* $2.000
+(sólo se aceptan apuestas deportivas de primera línea)
 
 Para comenzar a jugar ingresá aquí: https://azarlatino1.com/
+
+🔞 *SÓLO APTO PARA MAYORES DE 18 AÑOS* 🔞
     
 🌐 Visita nuestra página web www.suertecaba.com y mantenete al día con todas nuestras novedades. ¡Allí vas a encontrar *SIEMPRE* nuestra información de contacto! 📞✨ 
 
