@@ -95,7 +95,7 @@ registrar.addEventListener("click", function (e) {
 
 Para comenzar a jugar ingresá aquí: https://azarlatino1.com/
 
-🔞 *SÓLO APTO PARA MAYORES DE 18 AÑOS* 🔞
+🔞 *DESTINADO A UN PÚBLICO ADULTO:* Al acceder a jugar con nosotros, usted confirma que *tiene 18 años o más.*
     
 🌐 Visita nuestra página web www.suertecaba.com y mantenete al día con todas nuestras novedades. ¡Allí vas a encontrar *SIEMPRE* nuestra información de contacto! 📞✨ 
 
@@ -124,7 +124,7 @@ bienvenida.addEventListener("click", () => {
 . Baccarat
 . Bingo
 
-🔞 *SÓLO APTO PARA MAYORES DE 18 AÑOS* 🔞
+🔞 *DESTINADO A UN PÚBLICO ADULTO:* Al acceder a jugar con nosotros, usted confirma que *tiene 18 años o más.*
 
 🔺 *MÍNIMO DE CARGA: $1.000*
 🔺 *MÍNIMO DE RETIRO $2.000*
@@ -174,18 +174,18 @@ Si quiere que le generemos un usuario indíquenos su *nombre* y *apellido!* 📥
 });
 
 retirar.addEventListener("click", () => {
-  const texto = `💸 Para retirar su dinero complete los siguientes datos *EN ORDEN*:
+  const texto = `💳 *Para procesar su retiro, por favor envíe los siguientes datos en el orden indicado:*
 
-1️⃣ Nombre de usuario (del juego)
-2️⃣ Nombre y apellido que figura en su cuenta de banco
-3️⃣ Monto que desea retirar
-4️⃣ CBU / CVU
-5️⃣ ALIAS
+1️⃣ Usuario registrado en la plataforma.
+2️⃣ Nombre completo asociado a su cuenta bancaria.
+3️⃣ Monto que desea retirar.
+4️⃣ CBU / CVU de su cuenta.
+5️⃣ ALIAS de su cuenta.
+6️⃣ Nombre de la entidad bancaria (Mercado Pago, Ualá, BBVA, Santander, Cuenta DNI, etc.).
 
-♦️ *MÍNIMO DE RETIRO: $2.000* 
+🔹 *Monto mínimo de retiro: $2.000*
 
-Una vez que complete los datos, será enviado al sector de pagos 💰
-*Se abona por orden de llegada, por favor sea paciente mientras procesamos su pago. Puede demorar un rato.* 🙏🏻`;
+Por favor, *asegúrese de revisar todos los datos antes de enviarlos.* Una vez recibidos, su solicitud será enviada a la fila de pagos 📋. *Los pagos se realizan por orden de llegada, por lo que agradecemos su paciencia mientras gestionamos su solicitud.* 🕒🙏🏻`;
   const elementoTemporal = document.createElement("textarea");
   elementoTemporal.value = texto;
   document.body.appendChild(elementoTemporal);
